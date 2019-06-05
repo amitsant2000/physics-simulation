@@ -1,6 +1,5 @@
 var ctx = document.getElementById("newCanvas").getContext("2d");
 var canvas = document.querySelector('canvas');
-document.body.style.zoom="25%"
 canvas.width = (window.innerWidth);
 canvas.height = (window.innerHeight);
 var radiusmet = prompt("Radius (m): ");
