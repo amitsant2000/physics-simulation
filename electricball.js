@@ -120,8 +120,8 @@ function ball() {
   ctx.clearRect(window.innerWidth-860-radius+360, -10, 3500, 170);
   ctx.fillStyle = "black";
   ctx.fillText("v = " + (((vx0**2+(vy0+ay*t)**2)**.5)/6) + " m/s", window.innerWidth-850-radius+360, 30);
-  ctx.fillText("d = " + vx0*t/360 + " m", window.innerWidth-850-radius+360, 110);
-  ctx.fillText("h = " + (-vy0*t - 0.5*ay*t*t)/360 + " m", window.innerWidth-850-radius+360, 150);
+  ctx.fillText("dx = " + vx0*t/360 + " m", window.innerWidth-850-radius+360, 110);
+  ctx.fillText("dy = " + (-vy0*t - 0.5*ay*t*t)/360 + " m", window.innerWidth-850-radius+360, 150);
   ctx.lineWidth = 5;
   ctx.beginPath();
   ctx.moveTo(window.innerWidth-850-radius+360, 220);
